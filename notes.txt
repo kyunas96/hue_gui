@@ -1,0 +1,13 @@
+Hue Controller GUI:
+  1. Gather all the valid colors
+    a. whether from a file or from an array of color values based
+    on valid colors for the terminal
+  2. Render a list of all the colors to the terminal with any
+    supplemental information
+      a. Create a helper function that will create the string for each
+      of the colors
+      b. aggregate all the valid strings into an array
+      c. pass back the array and render to the console
+  3. Create a function that reads incoming keys
+    a. up/down arrows will render different parts of the list
+    b. when enter is clicked
