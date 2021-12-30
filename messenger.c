@@ -1,7 +1,9 @@
-#include <curl/curl.h>
-
 #ifndef MESSAGE_C
 #define MESSAGE_C
+
+#include <curl/curl.h>
+#include <stdio.h>
+#include "utilities/header_parser.c"
 
 int messenger(){
   CURL *curl = curl_easy_init();
